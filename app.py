@@ -13,7 +13,7 @@ device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 # 2. Load Model & Weights from Hugging Face Hub
 #    The model file is stored as a repo asset (not in the code repo)
 model_path = hf_hub_download(
-    repo_id="dakshh-bhardwaj/Epics-Lung-Report",   # <-- your HF model repo
+    repo_id="daksh-bhardwaj/Epics-Lung-Report",   # <-- your HF model repo
     filename="lung_cancer_detection_model.pth",
     repo_type="model"
 )
