@@ -1,0 +1,8 @@
+.venv
+dataset
+.gradio
+**/__pycache__
+
+# Large model files - host these on Hugging Face Hub instead
+*.pth
+Model/
